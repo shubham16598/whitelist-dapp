@@ -1,5 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
-required("dotenv").config({path: ".env"});
+require("dotenv").config({path: ".env"});
 
 
 const QUICKNODE_HTTP_URL = process.env.QUICKNODE_HTTP_URL;
